@@ -54,7 +54,7 @@ const App = () => {
                       : "header-title-dark"
                   }
                 >
-                  About
+                  Abouts
                 </a>
               </section>
               <section

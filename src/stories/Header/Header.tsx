@@ -106,7 +106,7 @@ export const Header = ({
               handleScroll(homeRef.current);
             }}
           >
-            <img src={Logo} alt="Andrew Baisden Logo" />
+          <p>Sijan Panta</p>
           </a>
         </div>
         <div>
