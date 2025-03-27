@@ -43,6 +43,7 @@
 }
 
 .hero-profile-button-light-theme {
+  border: 0px;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 500;
@@ -64,6 +65,7 @@
 }
 
 .hero-profile-button-dark-theme {
+  border: 0px;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 500;
@@ -213,4 +215,10 @@
     background: var(--main-font-color);
     padding: 0.2rem;
   }
+}
+
+.cv{
+  
+  margin-top: 25px;
+ 
 }

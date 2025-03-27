@@ -36,10 +36,16 @@ export const HeroProfile = ({ ...props }: HeroProfileprops) => {
             }
           >
             Find me on social media
-            <a href="/Sijan-Panta-cv.pdf" download="Sijan_CV.pdf">
-              <button>Download CV</button>
-            </a>
           </a>
+            <a href="/Sijan-Panta-cv.pdf" download="Sijan_CV.pdf">
+            <div className="cv">
+               <button className={
+              activeTheme === "light"
+                ? "hero-profile-button-light-theme"
+                : "hero-profile-button-dark-theme"
+            }>Download my CV</button>
+              </div> 
+            </a>
         </div>
       </div>
     </>
