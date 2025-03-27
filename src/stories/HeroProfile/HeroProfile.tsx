@@ -23,7 +23,7 @@ export const HeroProfile = ({ ...props }: HeroProfileprops) => {
             }}
           />
           <p className="hero-profile-tagline">
-            What I excel at is creating  websites, and learning.
+            What I excel at is creating websites, and learning.
           </p>
           <a
             href="https://www.facebook.com/profile.php?id=100011465675718"
@@ -36,6 +36,9 @@ export const HeroProfile = ({ ...props }: HeroProfileprops) => {
             }
           >
             Find me on social media
+            <a href="/Sijan-Panta-cv.pdf" download="Sijan_CV.pdf">
+              <button>Download CV</button>
+            </a>
           </a>
         </div>
       </div>
